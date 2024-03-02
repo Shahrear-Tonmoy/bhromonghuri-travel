@@ -1,0 +1,60 @@
+/* common styles */
+:root {
+    --primary-color: #ff5400;
+}
+
+body {
+    font-family: Mulish;
+}
+
+/* header section */
+.header {
+    margin: 0px 135px;
+}
+
+/* nav */
+.site-title {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.site-title img {
+    width: 50.8px;
+    height: 40.8px;
+}
+
+.site-title h3 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul,
+#hamburger-icon ul {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+}
+
+nav li a,
+#hamburger-icon a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.second-part {
+    color: var(--primary-color);
+}
+
+.nav-list1 a {
+    color: var(--primary-color);
+}
