@@ -185,14 +185,14 @@ nav li a,
 /* icon */
 
 /* main section */
-.popular-tour,
+.popular-tours,
 .choose-destination,
 .why-choose,
 .subscribe {
     margin: 100px 135px;
 }
 
-.popular-tour {
+.popular-tours {
     display: flex;
     gap: 5px;
     justify-content: space-between;
@@ -227,6 +227,8 @@ ul {
     width: 174px;
     height: 52px;
 }
+
+/* Choose destination */
 
 .choose-des {
     text-align: center;
@@ -406,7 +408,9 @@ ul {
 .subscribe-container {
     width: 100%;
     border-radius: 16px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color); 
+    padding: 20px 0px 30px 65px;
+
 
 }
 
